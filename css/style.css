@@ -3,7 +3,7 @@ body {
 }
 
 .rose-4{
-background-color: #004d61;
+background-color: #004d61!important;
 }
 
 nav ul a {
@@ -11,7 +11,6 @@ nav ul a {
     color: black;
     display: block;
     cursor: pointer;
-    transition: background-color 0.3s ease 0s;
     padding: 0px 15px;
 }
 
