@@ -14,4 +14,12 @@ window.onscroll = function () {
      nav.style.position = 'fixed'; //fixed
      nav.style.top = 100;
    }
-}
+}*/
+
+//SCROLLSPY
+document.addEventListener('DOMContentLoaded', function() {
+  var elems = document.querySelectorAll('.parallax');
+  var instances = M.Parallax.init(elems);
+});
+
+      
