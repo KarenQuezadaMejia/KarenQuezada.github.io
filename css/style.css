@@ -1,5 +1,5 @@
 body {
-    font-family: 'Open Sans Condensed', sans-serif;
+    font-family: 'Merriweather', serif;
 }
 
 .rose-4{
@@ -19,11 +19,17 @@ nav ul a {
   }
  
 p {
+    font-family: 'Poppins', sans-serif;
     font-size: 20px;
-    text-align: center;
+    text-align: center !important;
 }
 h4{
-    margin: 25px;
+    margin-right: 35px;
+}
+
+.text{
+padding: 40px;
+margin-top:20px;
 }
 
 #toolsBox{
