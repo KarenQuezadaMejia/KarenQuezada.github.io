@@ -8,15 +8,16 @@ flex-wrap: wrap;
 height: auto;
 }
 
+
 nav ul a {
     font-size: 19px;
     cursor: pointer;
-    margin-top: 15px;;
+    margin-top: 5px;;
 }
 
 a{
     margin-left: 15px;
-    margin-top: 15px;
+    margin-top: 5px;
 }
 
 .parallax-container {

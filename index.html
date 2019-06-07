@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <link href="https://unpkg.com/ionicons@4.5.5/dist/css/ionicons.min.css" rel="stylesheet">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Dosis|Open+Sans+Condensed:300|Raleway|Titillium+Web"
         rel="stylesheet">
 
@@ -26,17 +26,24 @@
         <nav class="rose-4">
             <div class="nav-wrapper container row">
                 <a href="index.html" class="brand-logo left">Karen</a>
-                <a href="#" data-target="mobile-demo" class="sidenav-trigger right"><i class="material-icons"></i></a>
-                <ul class="right">
-                    <li><a href="#AboutMe"  class="hoverable">Sobre Mi</a></li>
-                    <li><a href="#myTools"  class="hoverable">Mis Herramientas</a></li>
-                    <li><a href="#myProjects"  class="hoverable">Mis Proyectos</a></li>
-                    <li><a href="#Contact"  class="hoverable">Contáctame</a></li>
+                <a href="#" data-target="mobile-demo" class="sidenav-trigger right"><i class="material-icons">menu</i></a>
+                <ul class="right hide-on-med-and-down">
+                    <li><a href="#aboutMe">Sobre Mi</a></li>
+                    <li><a href="#myTools">Mis Herramientas</a></li>
+                    <li><a href="#myProjects">Mis Proyectos</a></li>
+                    <li><a href="#contactMe">Contáctame</a></li>
+                </ul>
+            
+        
+
+                <ul id="mobile-demo" class="sidenav">
+                <li><a href="#aboutMe">Sobre Mi</a></li>
+                <li><a href="#myTools">Mis Herramientas</a></li>
+                <li><a href="#myProjects">Mis Proyectos</a></li>
+                <li><a href="#contactMe">Contáctame</a></li>
                 </ul>
             </div>
-        </nav>
-      
-
+            </nav>
     </header>
 
  <!--    <header class="navbar-fixed">
@@ -58,7 +65,7 @@
           <img class="col m6 s12 right" src="./css/img/picone.jpg">
         </div>
       </div>
-      <div class="text" id="AboutMe">
+      <div class="text" id="aboutMe">
             <h4>Sobre Mi</h4>
       <p>Soy una profesional de diseño gráfico y audiovisual, me apasiona el mundo tech por lo que el área front-end es un mundo inspirador y con mucho retos, me gusta la programación y creación de nuevas plataformas que 
       faciliten la vida de la personas, estar involucrada en el desarrollo de una solución ante una problemática del mundo actual, es un desafio enriquecedor tanto por el aprendizaje adqueridos en estos proyectos como también para el desarrollo 
@@ -109,7 +116,7 @@
 
     <footer class="page-footer  white">
 
-            <div class="row container center" id="Contact">
+            <div class="row container center" id="contactMe">
                 <div class="col s12 m6">
                     <p class="valign-wrapper grey-text text-darken-4">
                         <a href="https://mail.google.com" target="_blank">
