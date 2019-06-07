@@ -24,17 +24,34 @@
 
     <header class="navbar-fixed">
         <nav class="rose-4">
-            <div class="nav-wrapper container">
-                <a href="#inicio" class="brand-logo left">Karen</a>
+            <div class="nav-wrapper container row">
+                <a href="index.html" class="brand-logo left">Karen</a>
+                <a href="#" data-target="mobile-demo" class="sidenav-trigger right"><i class="material-icons"></i></a>
                 <ul class="right">
-                    <li class="hoverable"><a href="#AboutMe">Sobre Mi</a></li>
-                    <li class="hoverable"><a href="#myTools">Mis Herramientas</a></li>
-                    <li class="hoverable"><a href="#myProjects">Mis Proyectos</a></li>
-                    <li class="hoverable"><a href="#Contact">Contáctame</a></li>
+                    <li><a href="#AboutMe"  class="hoverable">Sobre Mi</a></li>
+                    <li><a href="#myTools"  class="hoverable">Mis Herramientas</a></li>
+                    <li><a href="#myProjects"  class="hoverable">Mis Proyectos</a></li>
+                    <li><a href="#Contact"  class="hoverable">Contáctame</a></li>
                 </ul>
             </div>
         </nav>
+      
+
     </header>
+
+ <!--    <header class="navbar-fixed">
+            <nav>
+              <div class="nav-wrapper">
+                <a href="#!" class="brand-logo">Karen</a>
+                <ul class="right hide-on-med-and-down">
+                        <li class="hoverable"><a href="#AboutMe">Sobre Mi</a></li>
+                        <li class="hoverable"><a href="#myTools">Mis Herramientas</a></li>
+                        <li class="hoverable"><a href="#myProjects">Mis Proyectos</a></li>
+                        <li class="hoverable"><a href="#Contact">Contáctame</a></li>
+                </ul>
+              </div>
+            </nav>
+          </header> -->
 
     <div class="parallax-container">
         <div class="parallax">
@@ -53,6 +70,28 @@
             <img class="col m6 s12 right" src="./css/img/screen.png">
           </div>
       </div>
+      <div class="text" id="myProjects">
+        <h4 class="header">Mis Proyectos</h4>
+        <p class="grey-text text-darken-3 lighten-3"></p>
+       
+        <div class="card">
+                <div class="card-image waves-effect waves-block waves-light">
+                  <img class="activator" src="images/office.jpg">
+                </div>
+                <div class="card-content">
+                  <span class="card-title activator grey-text text-darken-4">Dexi Poke<i class="material-icons right">more_vert</i></span>
+                  <p><a href="https://josefin-ferrada.github.io/SCL008-data-lovers/src/index.html" target="_blank">Ver Demo</a></p>
+                </div>
+                <div class="card-reveal">
+                  <span class="card-title grey-text text-darken-4">Dexi Poke<i class="material-icons right">close</i></span>
+                  <p> 
+                      Proyecto Desarollado en javascript, con base de datos en Firebase            
+                </p>
+                  <i class="fab fa-github"></i>
+                </div>
+              </div>    
+    </div>
+
       <div class="text" id="myTools">
           <h4 id="mdo">Mis Herramientas</h4>
           <div id= toolsBox>
@@ -66,55 +105,51 @@
             </div>
       </div>
 
-      <div class="text" id="myProjects">
-            <h4 class="header">Mis Proyectos</h4>
-            <p class="grey-text text-darken-3 lighten-3">Parallax is an effect where the background content or image in this case, is moved at a different speed than the foreground content while scrolling.</p>
-    </div>
+      
 
     <footer class="page-footer  white">
 
-        <div class="row container center" id="Contact">
-
-            <div class="col s12 m4 ">
-                <p class="valign-wrapper grey-text text-darken-4">
-                    <a href="https://mail.google.com" target="_blank">
-                        <ion-icon class="teal-text text-darken-1 " name="mail"></ion-icon>
-                    </a>
-                    karenquezada.16@gmail.com
-                </p>
+            <div class="row container center" id="Contact">
+                <div class="col s12 m6">
+                    <p class="valign-wrapper grey-text text-darken-4">
+                        <a href="https://mail.google.com" target="_blank">
+                            <ion-icon class="teal-text text-darken-1 " name="mail"></ion-icon>
+                        </a>
+                        karenquezada.16@gmail.com
+                    </p>
+                </div>
+    
+    
+                <div class="col s12 m6">
+                    <p class="valign-wrapper grey-text text-darken-4 ">
+                        <a href="https://github.com/KarenQuezadaMejia" target="_blank">
+                            <ion-icon class="teal-text text-darken-1 " name="logo-github"></ion-icon>
+                        </a>
+                        github.com/KarenQuezada
+                    </p>
+                </div>
+    
+                <div class="col s12 m6">
+                    <p class="valign-wrapper grey-text text-darken-4">
+                        <a href="https://www.linkedin.com" target="_blank">
+                            <ion-icon class="teal-text text-darken-1 " name="logo-linkedin"></ion-icon>
+                        </a>
+                        linkedin.com
+                    </p>
+                </div>
+    
+    
             </div>
-
-
-            <div class="col s12 m4">
-                <p class="valign-wrapper grey-text text-darken-4 ">
-                    <a href="https://github.com/KarenQuezadaMejia" target="_blank">
-                        <ion-icon class="teal-text text-darken-1 " name="logo-github"></ion-icon>
-                    </a>
-                    github.com/KarenQuezada
-                </p>
+    
+    
+    
+            <div class="rose-4">
+                <div class="container ">
+                    © 2019 Copyright Karen Quezada
+                </div>
             </div>
-
-            <div class="col s12 m4 ">
-                <p class="valign-wrapper grey-text text-darken-4">
-                    <a href="https://www.linkedin.com" target="_blank">
-                        <ion-icon class="teal-text text-darken-1 " name="logo-linkedin"></ion-icon>
-                    </a>
-                    linkedin.com
-                </p>
-            </div>
-
-
-        </div>
-
-
-
-        <div class="rose-4">
-            <div class="container ">
-                © 2019 Copyright Karen Quezada
-            </div>
-        </div>
-
-    </footer>
+    
+        </footer>
 
 
     <script src="main.js"></script>

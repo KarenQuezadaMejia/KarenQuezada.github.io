@@ -3,15 +3,20 @@ body {
 }
 
 .rose-4{
-background-color: #004d61!important;
+background-color: #004d61!important; 
+flex-wrap: wrap;
+height: auto;
 }
 
 nav ul a {
     font-size: 19px;
-    color: black;
-    display: block;
     cursor: pointer;
-    padding: 0px 15px;
+    margin-top: 15px;;
+}
+
+a{
+    margin-left: 15px;
+    margin-top: 15px;
 }
 
 .parallax-container {
@@ -45,4 +50,8 @@ margin-top:20px;
     display: inline-block;
     margin-top: 20px;
 } 
+
+.fa fa-github{
+    background-color: black;
+}
 
