@@ -22,47 +22,29 @@
 
 <body>
 
-    <header class="navbar-fixed">
         <nav class="rose-4">
-            <div class="nav-wrapper container row">
-                <a href="index.html" class="brand-logo left">Karen</a>
-                <a href="#" data-target="mobile-demo" class="sidenav-trigger right"><i class="material-icons">menu</i></a>
-                <ul class="right hide-on-med-and-down">
-                    <li><a href="#aboutMe">Sobre Mi</a></li>
-                    <li><a href="#myTools">Mis Herramientas</a></li>
-                    <li><a href="#myProjects">Mis Proyectos</a></li>
-                    <li><a href="#contactMe">Contáctame</a></li>
-                </ul>
-            
-        
-
-                <ul id="mobile-demo" class="sidenav">
-                <li><a href="#aboutMe">Sobre Mi</a></li>
-                <li><a href="#myTools">Mis Herramientas</a></li>
-                <li><a href="#myProjects">Mis Proyectos</a></li>
-                <li><a href="#contactMe">Contáctame</a></li>
-                </ul>
-            </div>
-            </nav>
-    </header>
-
- <!--    <header class="navbar-fixed">
-            <nav>
-              <div class="nav-wrapper">
-                <a href="#!" class="brand-logo">Karen</a>
-                <ul class="right hide-on-med-and-down">
-                        <li class="hoverable"><a href="#AboutMe">Sobre Mi</a></li>
-                        <li class="hoverable"><a href="#myTools">Mis Herramientas</a></li>
-                        <li class="hoverable"><a href="#myProjects">Mis Proyectos</a></li>
-                        <li class="hoverable"><a href="#Contact">Contáctame</a></li>
-                </ul>
-              </div>
-            </nav>
-          </header> -->
+                <div class="nav-wrapper container row">
+                    <a href="index.html" class="brand-logo left">Karen</a>
+                    <a href="#" data-target="nav-mobile" class="sidenav-trigger right"><i class="material-icons">menu</i></a>
+                     <ul class="right hide-on-med-and-down">
+                        <li><a href="#aboutMe">Sobre Mi</a></li>
+                        <li><a href="#myTools">Mis Herramientas</a></li>
+                        <li><a href="#myProjects">Mis Proyectos</a></li>
+                        <li><a href="#contactMe">Contáctame</a></li>
+                  </ul>
+                  <ul id="nav-mobile" class="sidenav">
+                        <li><a href="#aboutMe">Sobre Mi</a></li>
+                        <li><a href="#myTools">Mis Herramientas</a></li>
+                        <li><a href="#myProjects">Mis Proyectos</a></li>
+                        <li><a href="#contactMe">Contáctame</a></li>
+                  </ul>
+                  
+                </div>
+              </nav>
 
     <div class="parallax-container">
         <div class="parallax">
-          <img class="col m6 s12 right" src="./css/img/picone.jpg">
+          <img class="col m6 s12 right" src="./css/img/screen.png">
         </div>
       </div>
       <div class="text" id="aboutMe">
@@ -72,35 +54,68 @@
       de mis habilidades humanitarias.
       </p>
         </div>
+        
       <div class="parallax-container">
         <div class="parallax">
             <img class="col m6 s12 right" src="./css/img/screen.png">
           </div>
       </div>
+
       <div class="text" id="myProjects">
-        <h4 class="header">Mis Proyectos</h4>
-        <p class="grey-text text-darken-3 lighten-3"></p>
-       
+        <h4>Mis Proyectos</h4>
+       <div class="card-conteiner row">
+        
+
+          <div class="col s12 m3">
         <div class="card">
-                <div class="card-image waves-effect waves-block waves-light">
-                  <img class="activator" src="images/office.jpg">
-                </div>
-                <div class="card-content">
-                  <span class="card-title activator grey-text text-darken-4">Dexi Poke<i class="material-icons right">more_vert</i></span>
-                  <p><a href="https://josefin-ferrada.github.io/SCL008-data-lovers/src/index.html" target="_blank">Ver Demo</a></p>
-                </div>
-                <div class="card-reveal">
-                  <span class="card-title grey-text text-darken-4">Dexi Poke<i class="material-icons right">close</i></span>
-                  <p> 
-                      Proyecto Desarollado en javascript, con base de datos en Firebase            
-                </p>
-                  <i class="fab fa-github"></i>
-                </div>
-              </div>    
+            <div class="card-image">
+              <img src="./css/img/cifrado.png" height="250px">
+            </div>
+              <p class="card-text">Cifrado Cesar</p>
+              <a href="https://github.com/KarenQuezadaMejia/SCL008-Cipher" target="_blank" class="links-text">Código
+              <br><a href="https://karenquezadamejia.github.io/SCL008-Cipher/src/index.html" target="_blank" class="links-text">Ver Demo
+        </div>
+      </div>
+
+<div class="col s12 m3">
+        <div class="card">
+            <div class="card-image">
+              <img src="./css/img/dexi.png" height="250px">
+            </div>
+              <p class="card-text">Dexi Poke</p>
+              <a href="https://github.com/KarenQuezadaMejia/SCL008-data-lovers" target="_blank" class="links-text">Código
+              <br><a href="https://josefin-ferrada.github.io/SCL008-data-lovers/src/index.html" target="_blank" class="links-text">Ver Demo
+        </div>
+</div>
+
+<div class="col s12 m3">
+        <div class="card">
+            <div class="card-image">
+              <img src="./css/img/books.png" height="250px">
+            </div>
+              <p class="card-text">Books Lover's</p>
+              <a href="https://github.com/KarenQuezadaMejia/SCL008-Social-Network" target="_blank" class="links-text">Código
+              <br><a href="https://josefin-ferrada.github.io/SCL008-data-lovers/src/index.html" target="_blank" class="links-text">Ver Demo
+        </div>
+</div>
+
+<div class="col s12 m3">
+        <div class="card">
+            <div class="card-image">
+              <img src="./css/img/visitor.png" height="250px">
+            </div>
+              <p class="card-text">Visitors</p>
+              <a href="https://github.com/KarenQuezadaMejia/hackaton-visitors" target="_blank" class="links-text">Código
+              <br><a href="https://aleisabl.github.io/hackaton-visitors/public/index.html" target="_blank" class="links-text">Ver Demo
+        </div>
+
+        
     </div>
+    </div>
+  </div>
 
       <div class="text" id="myTools">
-          <h4 id="mdo">Mis Herramientas</h4>
+          <h4>Mis Herramientas</h4>
           <div id= toolsBox>
               <img class="tools" src="https://i.ibb.co/41ks5cB/after-Effect.png">
               <img class="tools" src="https://i.ibb.co/j3JZFRx/css.png">
@@ -116,7 +131,7 @@
 
     <footer class="page-footer  white">
 
-            <div class="row container center" id="contactMe">
+            <div class="row container center" id="Contact">
                 <div class="col s12 m6">
                     <p class="valign-wrapper grey-text text-darken-4">
                         <a href="https://mail.google.com" target="_blank">
@@ -138,7 +153,7 @@
     
                 <div class="col s12 m6">
                     <p class="valign-wrapper grey-text text-darken-4">
-                        <a href="https://www.linkedin.com" target="_blank">
+                        <a href="https://linkedin.com/in/quezadakaren" target="_blank">
                             <ion-icon class="teal-text text-darken-1 " name="logo-linkedin"></ion-icon>
                         </a>
                         linkedin.com
@@ -151,7 +166,7 @@
     
     
             <div class="rose-4">
-                <div class="container ">
+                <div class="container">
                     © 2019 Copyright Karen Quezada
                 </div>
             </div>
