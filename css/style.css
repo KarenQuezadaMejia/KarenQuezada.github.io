@@ -11,6 +11,8 @@ body {
     background-color: #004d61!important; 
     flex-wrap: wrap;
     height: 80px;
+    position: fixed;
+    z-index: 1000;
 }
 
 
