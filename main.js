@@ -30,7 +30,17 @@ document.addEventListener('DOMContentLoaded', function() {
   var instances = M.Sidenav.init(elems);
 });
 
-document.addEventListener('DOMContentLoaded', function(){
-  var elems = document.querySelectorAll('.carousel');
-  var instance = M.Carousel.init(elems);
-  });
+
+
+  document.addEventListener('DOMContentLoaded', function() {
+    M.AutoInit();
+  
+    var options = {
+      fullWidth: true,
+      indicators: true,
+      autoPlay: 3000,
+    };
+    var elems = document.querySelector('.carousel.carousel-slider');
+    console.log(elems)
+    var instances = M.Carousel.init(elems, options);
+  })

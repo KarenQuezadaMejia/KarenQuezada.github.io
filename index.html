@@ -44,9 +44,7 @@
 
   <div class="parallax-container">
     <div class="parallax" id="aboutMe" style="opacity: 0.3;">
-      <img class="photo col m6 s12" src="./css/img/me.JPG" style="width:100%;"
-      @media (max-width: 600px) 
-        .height: auto;>
+      <img class="photo col m6 s12" src="./css/img/me.JPG" style="width:100%;">
     </div>
     <div class="text" style="margin-top: 90px;">
       <h4>Sobre Mi</h4>
@@ -63,10 +61,37 @@
 <div class="text" id="myProjects">
     <h4>Mis Proyectos</h4>
 <div class="carousel row">
-    <div class="carousel-item"><a href="https://github.com/KarenQuezadaMejia/SCL008-Cipher" target="_blank"><img src="./css/img/cifrado.png" class="demo"></a></div>
-    <div class="carousel-item"><a href="https://github.com/KarenQuezadaMejia/SCL008-data-lovers" target="_blank"><img src="./css/img/dexi.png" class="demo"></a></div>
-    <div class="carousel-item"><a href="https://github.com/KarenQuezadaMejia/SCL008-Social-Network" target="_blank"><img src="./css/img/books.png" class="demo"></a></div>
-    <div class="carousel-item"><a href="https://github.com/KarenQuezadaMejia/hackaton-visitors" target="_blank"><img src="./css/img/visitor.png" class="demo"></a></div>
+    <div class="carousel carousel-slider center">
+        <div class="carousel-fixed-item center">
+          <!--<a href="https://github.com/KarenQuezadaMejia/SCL008-Cipher" target="_blank" class="btn waves-effect white grey-text darken-text-2">Ver Github de Proyectos</a>-->
+        </div>
+        <div class="carousel-item red white-text" href="#one!" id="first">
+          <h2>Cifrado Cesar</h2>
+          <p class="white-text"><a href="https://karenquezadamejia.github.io/SCL008-Cipher/src/index.html" target="_blank" class="enlace">Código</a></p>
+          <p class="white-text"><a href="https://github.com/KarenQuezadaMejia/SCL008-Cipher" target="_blank" class="enlace">Ver Demo</a></p>
+        </div>
+        <div class="carousel-item amber white-text" href="#two!" id="second">
+          <h2>Dexi-Poke</h2>
+          <p class="white-text"><a href="https://github.com/KarenQuezadaMejia/SCL008-data-lovers" target="_blank" class="enlace">Código</a></p>
+          <p class="white-text"><a href="https://josefin-ferrada.github.io/SCL008-data-lovers/src/index.html" target="_blank" class="enlace">Ver Demo</a></p>
+        </div>
+        <div class="carousel-item green white-text" href="#three!" id="third">
+          <h2>Social-Network</h2>
+          <p class="white-text"><a href="https://github.com/KarenQuezadaMejia/SCL008-Social-Network" target="_blank" class="enlace">Código</a></p>
+          <p class="white-text"><a href="https://josefin-ferrada.github.io/SCL008-data-lovers/src/index.html" target="_blank" class="enlace">Ver Demo</a></p>
+        </div>
+        <div class="carousel-item blue white-text" href="#four!" id="fourth">
+          <h2>Visitors</h2>
+          <p class="white-text"><a href="https://github.com/KarenQuezadaMejia/hackaton-visitors" target="_blank" class="enlace">Código</a></p>
+          <p class="white-text"><a href="https://aleisabl.github.io/hackaton-visitors/public/index.html" target="_blank" class="enlace">Ver Demo</a></p>
+        </div>
+      </div>
+            
+    
+    <!-- <div class="carousel carousel-slider center"><a href="https://github.com/KarenQuezadaMejia/SCL008-Cipher" target="_blank"><img src="./css/img/cifrado.png" class="demo"></a></div>
+    <div class="carousel carousel-slider center"><a href="https://github.com/KarenQuezadaMejia/SCL008-data-lovers" target="_blank"><img src="./css/img/dexi.png" class="demo"></a></div>
+    <div class="carousel carousel-slider center"><a href="https://github.com/KarenQuezadaMejia/SCL008-Social-Network" target="_blank"><img src="./css/img/books.png" class="demo"></a></div>
+    <div class="carousel carousel-slider center"><a href="https://github.com/KarenQuezadaMejia/hackaton-visitors" target="_blank"><img src="./css/img/visitor.png" class="demo"></a></div> -->
   </div>
 </div>
 <!--------->
@@ -165,57 +190,76 @@
 </html>
 
 
-<!--   
-    <div class="card-conteiner row">
-      <div class="col s12 m3">
-        <div class="card">
-          <div class="card-image">
-            <img src="./css/img/cifrado.png" height="250px">
-          </div>
-          <p class="card-text">Cifrado Cesar</p>
-          <a href="https://github.com/KarenQuezadaMejia/SCL008-Cipher" target="_blank" class="links-text">Código
-            <br><a href="https://karenquezadamejia.github.io/SCL008-Cipher/src/index.html" target="_blank"
-              class="links-text">Ver Demo
+<!--   <nav id="top" class="navbar navbar-light bg-light">
+        <a class="navbar-brand" href="#">quezadakaren16@gmail.com</a>
+        <ul class="nav nav-pills">
+            <li class="nav-item-img">
+                <a class="nav-link" href="#fat">Logo github</a>
+            </li>
+            <li class="nav-item-img">
+                <a class="nav-link" href="#mdo">logo linkedIn</a>
+            </li>
+        </ul>
+  </nav>
+ -->
+<!-- <nav id="navbar-example2" class="navbar navbar-light bg-light">
+    <a class="navbar-brand" href="#">Karen Quezada</a>
+    <ul class="nav nav-pills">
+      <li class="nav-item">
+        <a class="nav-link" href="#aboutMe">Sobre Mi</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#skills">Mis Habilidades</a>
+      </li>
+      <li class="nav-item">
+          <a class="nav-link" href="#mdo">Mis Herramientas</a>
+        </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Mis Proyectos</a>
+        <div class="dropdown-menu">
+          <a class="dropdown-item" href="#one">Dexi-Poke</a>
+          <a class="dropdown-item" href="#two">Books Lovers</a>
+          <div role="separator" class="dropdown-divider">Md-Lnks</div>
+          <a class="dropdown-item" href="#four">Burguer Queen</a>
         </div>
+      </li>
+    </ul>
+  </nav>
+  <div class="box">
+  <div data-spy="scroll" data-target="#navbar-example2" data-offset="0">
+    <h4 id="avoutMe">Sobre Mi</h4>
+    <p>Soy una profesional de diseño gráfico y audiovisual, me apasiona el mundo tech por lo que el área front-end es un mundo inspirador y con mucho retos, me gusta la programación y creación de nuevas plataformas que 
+      faciliten la vida de la personas, estar involucrada en el desarrollo de una solución ante una problemática del mundo actual, es un desafio enriquecedor tanto por el aprendizaje adqueridos en estos proyectos como también para el desarrollo 
+      de mis habilidades humanitarias.
+      </p>
+    
+    <h4 id="mdo">Mis Habilidades</h4>
+     El desarrollo de soft skills
+     <p><img src="" alt="imagen">
+     <img src="" alt="imagen">
+     <img src="" alt="imagen">
+     <img src="" alt="imagen"></p>
+     
+    <h4 id="mdo">Mis Herramientas</h4>
+    <div id= toolsBox>
+        <img class="tools" src="../css/Illustrator-icon.png">
+        <img class="tools" src="../css/afterEffect.png">
+        <img class="tools" src="../css/css.png">
+        <img class="tools" src="../css/github.png">
+        <img class="tools" src="../css/html.png">
+        <img class="tools" src="../css/javascript.png">
+        <img class="tools" src="../css/react_logo_png.png">
       </div>
-
-      <div class="col s12 m3">
-        <div class="card">
-          <div class="card-image">
-            <img src="./css/img/dexi.png" height="250px">
-          </div>
-          <p class="card-text">Dexi Poke</p>
-          <a href="https://github.com/KarenQuezadaMejia/SCL008-data-lovers" target="_blank" class="links-text">Código
-            <br><a href="https://josefin-ferrada.github.io/SCL008-data-lovers/src/index.html" target="_blank"
-              class="links-text">Ver Demo
-        </div>
-      </div>
-
-      <div class="col s12 m3">
-        <div class="card">
-          <div class="card-image">
-            <img src="./css/img/books.png" height="250px">
-          </div>
-          <p class="card-text">Books Lover's</p>
-          <a href="https://github.com/KarenQuezadaMejia/SCL008-Social-Network" target="_blank" class="links-text">Código
-            <br><a href="https://josefin-ferrada.github.io/SCL008-data-lovers/src/index.html" target="_blank"
-              class="links-text">Ver Demo
-        </div>
-      </div>
-
-      <div class="col s12 m3">
-        <div class="card">
-          <div class="card-image">
-            <img src="./css/img/visitor.png" height="250px">
-          </div>
-          <p class="card-text">Visitors</p>
-          <a href="https://github.com/KarenQuezadaMejia/hackaton-visitors" target="_blank" class="links-text">Código
-            <br><a href="https://aleisabl.github.io/hackaton-visitors/public/index.html" target="_blank"
-              class="links-text">Ver Demo
-        </div>
-      </div>
-
-    </div>
+      <h4 id="mdo">Mis Proyectos</h4>
+      <p>El desarrollo de los siguientes proyectos se realizaron con el requirimiento de desarrollar mis habilidades técnicas.
+        </p>
+    <h5 id="one">Dexi-Poke</h4>
+      <img src="" alt="imagen">
+    <h5 id="two">Books Lovers</h4>
+    
+    <h5 id="three">Md-Links</h4>
+      <img src="" alt="imagen">
+    <h5 id="four">Burguer Queen</h4>
+      <img src="" alt="imagen">
   </div>
-
--->
+</div> -->

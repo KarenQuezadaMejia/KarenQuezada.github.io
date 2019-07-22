@@ -10,8 +10,7 @@ body {
 .rose-4{
     background-color: #2b3595!important; 
     flex-wrap: wrap;
-    height: 80px;
-    
+    height: 80px;   
 }
 
 nav{
@@ -23,17 +22,25 @@ nav ul a {
     cursor: pointer;
     margin-top: 5px;
 }
+a{
+    color: #182952;  
+}
 
- 
+.enlace{
+    text-decoration: underline !important;
+    color: #182952;
+}
+
 p{
     font-family: 'Poppins', sans-serif;
-    font-size: 20px;
+    font-size: 20px !important;
     text-align: center !important;
-    color: #182952;
+    color: #182952 !important;
 }
 h4{
     margin-right: 35px;
     color: #7045af;
+    margin-bottom: 20px;
 }
 
 .text{
@@ -61,12 +68,55 @@ margin-top:20px;
 .teal-text.text-darken-1 {
     color:#2b3595 !important;
     }
-
 .carousel{
-        width: 100%;
-    } 
-.demo{
-    width: 450px;
+    margin-top: 20px;
+}
+.carousel p{ 
+        color: #2b3595 !important;
+    }  
+    h2{
+        color: #2b3595 !important;
+    }
+    .carousel .indicators .indicator-item {
+    background-color: #2b3595 !important;
+    width: 20px;
+    height: 20px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border: #182952;
+    border: 2px solid white;
+    margin-bottom: 60px;
+}
+.indicator-item:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+  }
+.waves-effect{
+    border-radius: 15px;
+    background-color: #182952 !important;
+}
+.carousel-item{
+    background-repeat: no-repeat;
+    background-size: 800px 400px;
+    background-position: center; 
+    background-color: white !important;
+}
+
+#first{
+    background-image: url('./img/cifrado.png');  
+}
+
+#second{
+    background-image: url('./img/dexi.png');
+    
+}
+
+#third{
+    background-image: url('./img/books.png')
+}
+
+#fourth{
+    background-image: url('./img/visitor.png')
 }
 
 @media only screen and (max-width: 600px) {
@@ -83,12 +133,18 @@ margin-top:20px;
     }
 
     .text{
-        padding: 25px;
+        padding: 15px;
         margin-top:18px;
         }
 
-    .demo{
-        width: 260px;
-        height: 300px;
-    }
+        .carousel-item{
+            background-repeat: no-repeat;
+            background-size: 350px 400px;
+            background-position: center; 
+            background-color: white !important;
+        }
+        #aboutMe{
+            height: auto !important;
+        }
+    
 }
