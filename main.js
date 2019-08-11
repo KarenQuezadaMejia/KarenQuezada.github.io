@@ -18,7 +18,7 @@ window.onscroll = function () {
 
 //SCROLLSPY
 
-
+/* 
 
 document.addEventListener('DOMContentLoaded', function() {
   var elems = document.querySelectorAll('.parallax');
@@ -43,4 +43,4 @@ document.addEventListener('DOMContentLoaded', function() {
     var elems = document.querySelector('.carousel.carousel-slider');
     console.log(elems)
     var instances = M.Carousel.init(elems, options);
-  })
+  }) */

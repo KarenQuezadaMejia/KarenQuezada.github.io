@@ -2,22 +2,23 @@
     margin: 0%;
     padding: 0%;
 }   
-    body {
+
+body {
         font-family: 'Raleway', sans-serif !important;
         margin: 0px;
         padding: 0px;
-        background-color: #fefefe;
+        background-color: #fefefe !important;
         background-image: url('./bubble2.png');
         background-size: 100px;
         background-repeat: initial;
     }
-.bg-light{
+.bg-light {
     background-color: #02558b!important;
     margin: auto;
-    position: fixed;
+    position: fixed !important;
     z-index: 9999;
     width: 100%;
-}
+    }
 
 button:focus {
     outline: none;
