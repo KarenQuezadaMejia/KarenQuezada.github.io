@@ -1,265 +1,217 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-
-  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css"> -->
-  <link href="https://fonts.googleapis.com/css?family=Merriweather|Poppins&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-  <link href="https://unpkg.com/ionicons@4.5.5/dist/css/ionicons.min.css" rel="stylesheet">
-  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Dosis|Open+Sans+Condensed:300|Raleway|Titillium+Web"
-    rel="stylesheet">
-  <link href="./css/style.css" rel="stylesheet">
-
-
-  <title>Karen Quezada</title>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <script src="https://kit.fontawesome.com/78135a7c59.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="./style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato|Raleway&display=swap" rel="stylesheet">
+    <title>KarenQuezada</title>
 </head>
 
 <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="index.html" style="color:#ffffff;" font-family="'Lato', sans-serif !important;"  >Karen Quezada</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
+            aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
 
-  <nav class="rose-4">
-    <div class="nav-wrapper container row">
-      <a href="index.html" class="brand-logo left">Karen</a>
-      <a href="#" data-target="nav-mobile" class="sidenav-trigger right"><i class="material-icons">menu</i></a>
-      <ul class="right hide-on-med-and-down">
-        <li><a href="#aboutMe">Sobre Mi</a></li>
-        <li><a href="#myProjects">Mis Proyectos</a></li>
-        <li><a href="#myTools">Mis Herramientas</a></li>
-        <li><a href="#contactMe">Contáctame</a></li>
-      </ul>
-      <ul id="nav-mobile" class="sidenav">
-        <li><a href="#aboutMe">Sobre Mi</a></li>
-        <li><a href="#myProjects">Mis Proyectos</a></li>
-        <li><a href="#myTools">Mis Herramientas</a></li>
-        <li><a href="#contactMe">Contáctame</a></li>
-      </ul>
-
-    </div>
-  </nav>
-
-  <div class="parallax-container">
-    <div class="parallax" id="aboutMe" style="opacity: 0.3;">
-      <img class="photo col m6 s12" src="./css/img/me.JPG" style="width:100%;">
-    </div>
-    <div class="text" style="margin-top: 90px;">
-      <h4>Sobre Mi</h4>
-      <p>Soy una profesional de diseño gráfico y audiovisual, me apasiona el mundo tech por lo que el área front-end es
-        un mundo inspirador y con mucho retos, me gusta la programación y creación de nuevas plataformas que
-        faciliten la vida de la personas, estar involucrada en el desarrollo de una solución ante una problemática del
-        mundo actual, es un desafio enriquecedor tanto por el aprendizaje adqueridos en estos proyectos como también
-        para el desarrollo
-        de mis habilidades humanitarias.
-      </p>
-    </div>
-  </div>
-<!--------->
-<div class="text" id="myProjects">
-    <h4>Mis Proyectos</h4>
-<div class="carousel row">
-    <div class="carousel carousel-slider center">
-        <div class="carousel-fixed-item center">
-          <!--<a href="https://github.com/KarenQuezadaMejia/SCL008-Cipher" target="_blank" class="btn waves-effect white grey-text darken-text-2">Ver Github de Proyectos</a>-->
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#aboutMe">Sobre Mi<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#myProjects">Mis Proyectos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#myTools">Mis Herramientas</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contactMe">Contáctame</a>
+                </li>
+            </ul>
         </div>
-        <div class="carousel-item red white-text" href="#one!" id="first">
-          <h2>Cifrado Cesar</h2>
-          <p class="white-text"><a href="https://karenquezadamejia.github.io/SCL008-Cipher/src/index.html" target="_blank" class="enlace">Código</a></p>
-          <p class="white-text"><a href="https://github.com/KarenQuezadaMejia/SCL008-Cipher" target="_blank" class="enlace">Ver Demo</a></p>
+    </nav>
+    <article id="aboutMe" style="margin: 0px 30px; padding:0px;">
+            <div class="text" id="about" style="padding-top: 80px;">
+                <h4>Sobre Mi</h4>
+                <p style="padding-bottom:30px; font-weight: bold!important;">
+                    Soy una profesional de diseño gráfico y audiovisual, me apasiona el mundo tech por lo que el área
+                    front-end es
+                    un mundo inspirador y con mucho retos, me gusta la programación y creación de nuevas plataformas que
+                    faciliten la vida de la personas, estar involucrada en el desarrollo de una solución ante una
+                    problemática del
+                    mundo actual, es un desafio enriquecedor tanto por el aprendizaje adqueridos en estos proyectos como
+                    también
+                    para el desarrollo
+                    de mis habilidades humanitarias.
+                </p>
+            </div>
+    </article>
+
+    <!--Gallery-->
+    <article class="text" id="myProjects" style="margin: 0px 30px; padding:0px;">
+    <div id="about" style="padding-top: 40px;">
+      <h4>Mis Proyectos</h4>
+            <div class="card-columns">
+                    <div class="card">
+                            <p class="card-title">Red Social</p>
+                      <img src="./redSocial.gif" class="card-img-top" alt="...">
+                      <div class="card-body">Red social para lectores.</p>
+                            <a href="https://karenquezadamejia.github.io/SCL008-Social-Network/src/index.html" target="_blank" class="btn btn-primary">Ver Demo</a>
+                            <a href="https://github.com/KarenQuezadaMejia/SCL008-Social-Network" target="_blank" target="_blank" class="btn btn-primary">Ir al código</a>
+                      </div>
+                    </div>
+
+                    <div class="card p-3">
+                      <blockquote class="blockquote mb-0 card-body">
+                        <p> Proyectos realizados con JavaScript, librerías y framework.</p>
+                      </blockquote>
+                    </div>
+
+                    <div class="card">
+                            <p class="card-title">Generador de clave</p>
+                      <img src="./cipher.gif" class="card-img-top" alt="...">
+                      <div class="card-body">Crea una clave de seguridad.</p>
+                            <a href="https://karenquezadamejia.github.io/SCL008-Cipher/src/index.html" target="_blank" class="btn btn-primary">Ver Demo</a>
+                            <a href="https://github.com/KarenQuezadaMejia/SCL008-Cipher" target="_blank" target="_blank" class="btn btn-primary">Ir al código</a>
+                      </div>
+                    </div>
+                    
+                    <div class="card bg-primary text-white text-center p-3" style="background-color: #ffffff; border-color: #ffffff !important;">
+                      <blockquote class="blockquote mb-0">
+                        <p style="color:#575da9 !important; "> Proyectos Colaborativos y Personales</p>
+                        <footer class="blockquote-footer text-white">
+                          <small>
+                            Puedes revisar<cite title="Source Title">el código y deploy</cite>
+                          </small>
+                        </footer>
+                      </blockquote>
+                    </div>
+<!-- 
+                    <div class="card text-center">
+                      <div class="card-body">
+                        <h5 class="card-title"> 4 Card title</h5>
+                        <p class="card-text">This card has a regular title and short paragraphy of text below it.</p>
+                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                      </div>
+                    </div>
+
+                    <div class="card">
+                      <img src="..." class="card-img-top" alt="...">
+                      <p>3 imagen suelta</p>
+                    </div> -->
+
+                    <div class="card">
+                        <p class="card-title">Dexi-Poke</p>
+                  <img src="./dexi.gif" class="card-img-top" alt="...">
+                  <div class="card-body">Sistea de filtrado de Pokemon.</p>
+                        <a href="https://josefin-ferrada.github.io/SCL008-data-lovers/src/index.html" target="_blank" class="btn btn-primary">Ver Demo</a>
+                        <a href="https://github.com/KarenQuezadaMejia/SCL008-data-lovers" target="_blank" target="_blank" class="btn btn-primary">Ir al código</a>
+                  </div>
+                </div>
+
+                <div class="card">
+                    <p class="card-title">Burger</p>
+              <img src="./burger.gif" class="card-img-top" alt="...">
+              <div class="card-body">Plataforma de pedidos para centro cómidas rápida</p>
+                    <a href="https://karenquezadamejia.github.io/BurgerQueenRedux/" target="_blank" class="btn btn-primary">Ver Demo</a>
+                    <a href="https://github.com/KarenQuezadaMejia/BurgerQueenRedux" target="_blank" target="_blank" class="btn btn-primary">Ir al código</a>
+              </div>
+            </div>
+                  </div>
+                </div>
+    </article>
+
+    <!--tools-->
+    <article class="text" id="myTools">
+        <h4>Mis Herramientas</h4>
+        <div id="toolsBox">
+            <img class="tools" src="https://i.ibb.co/Y8w1zTr/after-Effect2.png" style="width: 100px; margin: 10px;">
+            <img class="tools" src="https://i.ibb.co/f4RFcb0/ai.png" style="width: 100px; margin: 10px;">
+            <img class="tools" src="https://i.ibb.co/XbnBKtB/boots.png" style="width: 100px; margin: 10px;">
+            <img class="tools" src="https://i.ibb.co/F7gCRLc/corel-Draw.png" style="width: 100px; margin: 10px;">
+            <img class="tools" src="https://i.ibb.co/r5yMf3n/css.png" style="width: 100px; margin: 10px;">
+            <img class="tools" src="https://i.ibb.co/JK7J8t9/figma.png" style="width: 100px; margin: 10px;">
+            <img class="tools" src="https://i.ibb.co/34Z82sZ/materialize.png" style="width: 100px; margin: 10px;">
+            <img class="tools" src="https://i.ibb.co/DkStgZV/firebaseb.png" style="width: 100px; margin: 10px;">
+            <img class="tools" src="https://i.ibb.co/jvhJQwv/git.png" style="width: 100px; margin: 10px;">
+            <img class="tools" src="https://i.ibb.co/4YR9sqt/github.png" style="width: 100px; margin: 10px;">
+            <img class="tools" src="https://i.ibb.co/Qm8FDLj/html.png" style="width: 100px; margin: 10px;">
+            <img class="tools" src="https://i.ibb.co/CVD3Vjm/Indesign.png" style="width: 100px; margin: 10px;">
+            <img class="tools" src="https://i.ibb.co/Pw5ynbR/js.png" style="width: 100px; margin: 10px;">
+            <img class="tools" src="https://i.ibb.co/mtYpGHd/lightr.png" style="width: 100px; margin: 10px;">
+            <img class="tools" src="https://i.ibb.co/TYbJHpw/photosh.png" style="width: 100px; margin: 10px;">
+            <img class="tools" src="https://i.ibb.co/rkH3DFB/premiere.png" style="width: 100px; margin: 10px;">
+            <img class="tools" src="https://i.ibb.co/PTjnM4h/react.png" style="width: 100px; margin: 10px;">
+            <img class="tools" src="https://i.ibb.co/x2cXX7v/wordp.png" style="width: 100px; margin: 10px;">
+            <img class="tools" src="https://i.ibb.co/xJFcj5T/xd.png" style="width: 100px; margin: 10px;">
+            <img class="tools" src="https://i.ibb.co/CzZd0jy/maya2.png" style="width: 100px; margin: 10px;">
         </div>
-        <div class="carousel-item amber white-text" href="#two!" id="second">
-          <h2>Dexi-Poke</h2>
-          <p class="white-text"><a href="https://github.com/KarenQuezadaMejia/SCL008-data-lovers" target="_blank" class="enlace">Código</a></p>
-          <p class="white-text"><a href="https://josefin-ferrada.github.io/SCL008-data-lovers/src/index.html" target="_blank" class="enlace">Ver Demo</a></p>
-        </div>
-        <div class="carousel-item green white-text" href="#three!" id="third">
-          <h2>Social-Network</h2>
-          <p class="white-text"><a href="https://github.com/KarenQuezadaMejia/SCL008-Social-Network" target="_blank" class="enlace">Código</a></p>
-          <p class="white-text"><a href="https://karenquezadamejia.github.io/SCL008-Social-Network/src/index.html" target="_blank" class="enlace">Ver Demo</a></p>
-        </div>
-        <div class="carousel-item blue white-text" href="#four!" id="fourth">
-          <h2>Visitors</h2>
-          <p class="white-text"><a href="https://github.com/KarenQuezadaMejia/hackaton-visitors" target="_blank" class="enlace">Código</a></p>
-          <p class="white-text"><a href="https://aleisabl.github.io/hackaton-visitors/public/index.html" target="_blank" class="enlace">Ver Demo</a></p>
-        </div>
-      </div>
-            
-    
-    <!-- <div class="carousel carousel-slider center"><a href="https://github.com/KarenQuezadaMejia/SCL008-Cipher" target="_blank"><img src="./css/img/cifrado.png" class="demo"></a></div>
-    <div class="carousel carousel-slider center"><a href="https://github.com/KarenQuezadaMejia/SCL008-data-lovers" target="_blank"><img src="./css/img/dexi.png" class="demo"></a></div>
-    <div class="carousel carousel-slider center"><a href="https://github.com/KarenQuezadaMejia/SCL008-Social-Network" target="_blank"><img src="./css/img/books.png" class="demo"></a></div>
-    <div class="carousel carousel-slider center"><a href="https://github.com/KarenQuezadaMejia/hackaton-visitors" target="_blank"><img src="./css/img/visitor.png" class="demo"></a></div> -->
-  </div>
-</div>
-<!--------->
- 
-
-  <div class="text" id="myTools">
-    <h4>Mis Herramientas</h4>
-    <div id=toolsBox style="opacity: 0.9;">
-      <img class="tools" src="https://i.ibb.co/41ks5cB/after-Effect.png">
-      <img class="tools" src="https://i.ibb.co/j3JZFRx/css.png">
-      <img class="tools" src="ttps://i.ibb.co/nz355sN/github.png">
-      <img class="tools" src="https://i.ibb.co/TTCGkkP/html.png">
-      <img class="tools" src="https://i.ibb.co/WW2m9z4/javascript.png">
-      <img class="tools" src="https://i.ibb.co/QCTQK8X/react-logo-png.png">
-      <img class="tools" src="https://i.ibb.co/SsCZ6Rx/Git-Icon-Black.png">
-    </div>
-  </div>
-  <!----------->
-
-
-  <!--     <div class="parallax-container">
-      <div class="parallax">
-        <img class="col m6 s12 right" src="./css/img/screen.png">
-      </div>
-    </div> -->
+    </article>
 
 
 
+        <article class="text" id="contactMe">
+          <h4>Contáctame</h4>
+          <div class="container">
+            <div class="row">
+                    <div class="col s12 m6">
+                            
+                            <p class="valign-wrapper text-darken-4">
+                              <a href="https://mail.google.com" target="_blank">
+                                <i class="fas fa-envelope"></i></a>
+                              karenquezada.16@gmail.com
+                            </p>
+                        </div>
+                    
+                    
+                          <div class="col s12 m6">
+                            <p class="valign-wrapper text-darken-4 ">
+                              <a href="https://github.com/KarenQuezadaMejia" target="_blank">
+                                <i class="fas fa-address-card"></i>
+                              </a>
+                              github.com/KarenQuezada
+                            </p>
+                          </div>
+                    
+                          <div class="col s12 m6">
+                            <p class="valign-wrapper text-darken-4">
+                              <a href="https://linkedin.com/in/quezadakaren" target="_blank">
+                                <i class="fab fa-linkedin"></i>
+                              </a>
+                              linkedin.com
+                            </p>
+                          </div>
+            </div>
+          </div>
+        </article>
+        <footer class="page-footer"></footer>
+          <div class="footer-copyright">
+            <div class="containercopy">
+                   Karen Quezada
+                    <br>© 2019 Copyright
+            </div>
+          </div>
+        </footer>
 
 
-
-
-  <footer class="page-footer  white">
-
-    <div class="row container center" id="contactMe">
-      <div class="col s12 m6">
-        <p class="valign-wrapper text-darken-4">
-          <a href="https://mail.google.com" target="_blank">
-            <ion-icon class="teal-text text-darken-1" name="mail"></ion-icon>
-          </a>
-          karenquezada.16@gmail.com
-        </p>
-      </div>
-
-
-      <div class="col s12 m6">
-        <p class="valign-wrapper text-darken-4 ">
-          <a href="https://github.com/KarenQuezadaMejia" target="_blank">
-            <ion-icon class="teal-text text-darken-1" name="logo-github"></ion-icon>
-          </a>
-          github.com/KarenQuezada
-        </p>
-      </div>
-
-      <div class="col s12 m6">
-        <p class="valign-wrapper text-darken-4">
-          <a href="https://linkedin.com/in/quezadakaren" target="_blank">
-            <ion-icon class="teal-text text-darken-1" name="logo-linkedin"></ion-icon>
-          </a>
-          linkedin.com
-        </p>
-      </div>
-
-
-    </div>
-
-
-
-    <div class="rose-4">
-      <div class="container center">
-        <br>Karen Quezada
-        <br>© 2019 Copyright
-      </div>
-    </div>
-
-  </footer>
-
-
-  <script src="main.js"></script>
-
-  <!-- <script type="text/javascript" src="wow.min.js"></script>
-        <script>new WOW().init()</script>    -->
-
-  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-  <script>
-    AOS.init();
-  </script>
-
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-  <script src="https://unpkg.com/ionicons@4.5.5/dist/ionicons.js"></script>
-
-
-
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
-
-
-<!--   <nav id="top" class="navbar navbar-light bg-light">
-        <a class="navbar-brand" href="#">quezadakaren16@gmail.com</a>
-        <ul class="nav nav-pills">
-            <li class="nav-item-img">
-                <a class="nav-link" href="#fat">Logo github</a>
-            </li>
-            <li class="nav-item-img">
-                <a class="nav-link" href="#mdo">logo linkedIn</a>
-            </li>
-        </ul>
-  </nav>
- -->
-<!-- <nav id="navbar-example2" class="navbar navbar-light bg-light">
-    <a class="navbar-brand" href="#">Karen Quezada</a>
-    <ul class="nav nav-pills">
-      <li class="nav-item">
-        <a class="nav-link" href="#aboutMe">Sobre Mi</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#skills">Mis Habilidades</a>
-      </li>
-      <li class="nav-item">
-          <a class="nav-link" href="#mdo">Mis Herramientas</a>
-        </li>
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Mis Proyectos</a>
-        <div class="dropdown-menu">
-          <a class="dropdown-item" href="#one">Dexi-Poke</a>
-          <a class="dropdown-item" href="#two">Books Lovers</a>
-          <div role="separator" class="dropdown-divider">Md-Lnks</div>
-          <a class="dropdown-item" href="#four">Burguer Queen</a>
-        </div>
-      </li>
-    </ul>
-  </nav>
-  <div class="box">
-  <div data-spy="scroll" data-target="#navbar-example2" data-offset="0">
-    <h4 id="avoutMe">Sobre Mi</h4>
-    <p>Soy una profesional de diseño gráfico y audiovisual, me apasiona el mundo tech por lo que el área front-end es un mundo inspirador y con mucho retos, me gusta la programación y creación de nuevas plataformas que 
-      faciliten la vida de la personas, estar involucrada en el desarrollo de una solución ante una problemática del mundo actual, es un desafio enriquecedor tanto por el aprendizaje adqueridos en estos proyectos como también para el desarrollo 
-      de mis habilidades humanitarias.
-      </p>
-    
-    <h4 id="mdo">Mis Habilidades</h4>
-     El desarrollo de soft skills
-     <p><img src="" alt="imagen">
-     <img src="" alt="imagen">
-     <img src="" alt="imagen">
-     <img src="" alt="imagen"></p>
-     
-    <h4 id="mdo">Mis Herramientas</h4>
-    <div id= toolsBox>
-        <img class="tools" src="../css/Illustrator-icon.png">
-        <img class="tools" src="../css/afterEffect.png">
-        <img class="tools" src="../css/css.png">
-        <img class="tools" src="../css/github.png">
-        <img class="tools" src="../css/html.png">
-        <img class="tools" src="../css/javascript.png">
-        <img class="tools" src="../css/react_logo_png.png">
-      </div>
-      <h4 id="mdo">Mis Proyectos</h4>
-      <p>El desarrollo de los siguientes proyectos se realizaron con el requirimiento de desarrollar mis habilidades técnicas.
-        </p>
-    <h5 id="one">Dexi-Poke</h4>
-      <img src="" alt="imagen">
-    <h5 id="two">Books Lovers</h4>
-    
-    <h5 id="three">Md-Links</h4>
-      <img src="" alt="imagen">
-    <h5 id="four">Burguer Queen</h4>
-      <img src="" alt="imagen">
-  </div>
-</div> -->

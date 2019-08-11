@@ -1,150 +1,125 @@
 *{
     margin: 0%;
     padding: 0%;
-}
-
-body {
-    font-family: 'Merriweather', serif;
-}
-
-.rose-4{
-    background-color: #2b3595!important; 
-    flex-wrap: wrap;
-    height: 80px;   
-}
-
-nav{
+}   
+    body {
+        font-family: 'Raleway', sans-serif !important;
+        margin: 0px;
+        padding: 0px;
+        background-color: #fefefe;
+        background-image: url('./bubble2.png');
+        background-size: 100px;
+        background-repeat: initial;
+    }
+.bg-light{
+    background-color: #02558b!important;
+    margin: auto;
     position: fixed;
-    z-index: 9999;;
+    z-index: 9999;
+    width: 100%;
 }
+
+button:focus {
+    outline: none;
+    background-color: #3f7294;
+    color: black !important;
+}
+
+.collapse.show {
+    background-color: #02558b;
+    color: black;
+}
+
 nav ul a {
     font-size: 19px;
     cursor: pointer;
-    margin-top: 5px;
+    font-family: 'Lato', sans-serif;
 }
-a{
-    color: #182952;  
-}
-
-.enlace{
-    text-decoration: underline !important;
-    color: #182952;
+.nav-item a{
+    color: white!important; 
 }
 
+#about{
+  margin: 0px 20px;
+  padding: 0px 20px;
+  color: #6d7993 !important;
+}
+article{
+    padding: 0px 20px;
+}
 p{
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-size: 20px !important;
+    font-weight: bold !important;
     text-align: center !important;
-    color: #182952 !important;
+    color: black !important;
 }
 h4{
+    font-family: 'Lato', sans-serif !important;
     margin-right: 35px;
-    color: #7045af;
-    margin-bottom: 20px;
+    color: #575da9;
+    margin-bottom: 30px !important;
+    font-weight: bold !important;
+    margin: 10px 30px;
+    margin-top:50px;
 }
 
-.text{
-padding: 30px;
-margin-top:20px;
+#myProjects{
+    margin: 10px 50px;
+    margin-top: 70px;
 }
-
 #toolsBox{
-    background-color: #7045af; 
-    padding-left: 15px;
+    margin: 0px 20px;
+    padding: 20px;
+    text-align: center; 
+}
+.text{
+    border-bottom-style: ridge;
+    margin: 0px 20px;
+    border-color: #d7dd35;
+}
+.card{
+    margin-bottom: 20px!important;
+}
+.btn-primary {
+    color: white;
+    background-color: #fa7c92 !important;
+    background-color: #e42d9f !important;;
+    border-color: #fa7c92 !important;;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: rgba(0,0,0,.5);
+    color: #ffffff !important;
+}
+
+.card{
+    background-color: #ffffff !important;
+}
+
+footer{
+    padding: 0px !important;
+    margin: 0px !important;
+    background-color: #02558b!important;
+}
+.containercopy{
+    background-color: #02558b!important;
+    color: #ffffff;
     text-align: center;
-    margin-left: 20px;
-    margin-right: 20px;
+    padding: 0px !important;
+    margin: 0px;
 }
-
-.tools{
-    width: 100px;
-    display: inline-block;
-    margin-top: 20px;
-} 
-.links-text{
-    color: #2b3595;
+.fas{
+    color: #02558b;
+    font-size: 25px;
 }
-
-.teal-text.text-darken-1 {
-    color:#2b3595 !important;
-    }
-.carousel{
-    margin-top: 20px;
-}
-.carousel p{ 
-        color: #2b3595 !important;
-    }  
-    h2{
-        color: #2b3595 !important;
-    }
-    .carousel .indicators .indicator-item {
-    background-color: #2b3595 !important;
-    width: 20px;
-    height: 20px;
-    -webkit-transition-duration: 0.4s; /* Safari */
-    transition-duration: 0.4s;
-    cursor: pointer;
-    border: #182952;
-    border: 2px solid white;
-    margin-bottom: 60px;
-}
-.indicator-item:hover {
-    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
-  }
-.waves-effect{
-    border-radius: 15px;
-    background-color: #182952 !important;
-}
-.carousel-item{
-    background-repeat: no-repeat;
-    background-size: 800px 400px;
-    background-position: center; 
-    background-color: white !important;
-}
-
-#first{
-    background-image: url('./img/cifrado.png');  
-}
-
-#second{
-    background-image: url('./img/dexi.png');
-    
-}
-
-#third{
-    background-image: url('./img/books.png')
-}
-
-#fourth{
-    background-image: url('./img/visitor.png')
+.fab{
+    color: #02558b;
+    font-size: 25px;
 }
 
 @media only screen and (max-width: 600px) {
-    h4{
-        margin-right: 10px;
-        color: #7045af;
+    #myProjects{
+        padding-top:50px !important;
     }
-
-    p{
-        font-family: 'Poppins', sans-serif;
-        font-size: 12px;
-        text-align: center !important;
-        color: #182952;
-    }
-
-    .text{
-        padding: 15px;
-        margin-top:18px;
-        }
-
-        .carousel-item{
-            background-repeat: no-repeat;
-            background-size: 350px 400px;
-            background-position: center; 
-            background-color: white !important;
-        }
-        #aboutMe{
-            height: auto !important;
-        }
-    
 }
