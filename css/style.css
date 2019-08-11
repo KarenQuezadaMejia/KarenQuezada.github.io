@@ -41,19 +41,18 @@ nav ul a {
 }
 
 #about{
-  margin: 0px 20px;
-  padding: 0px 20px;
   color: #6d7993 !important;
 }
 article{
-    padding: 0px 20px;
+    padding: 0px 10px;
 }
 p{
     font-family: 'Raleway', sans-serif;
     font-size: 20px !important;
     font-weight: bold !important;
-    text-align: center !important;
     color: black !important;
+    text-align: justify !important;
+    hyphens: auto;
 }
 h4{
     font-family: 'Lato', sans-serif !important;
@@ -76,7 +75,7 @@ h4{
 }
 .text{
     border-bottom-style: ridge;
-    margin: 0px 20px;
+    margin: 0px 10px;
     border-color: #d7dd35;
 }
 .card{
